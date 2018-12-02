@@ -17,6 +17,9 @@ public class WServer {
     private Logger logger = LoggerFactory.getLogger(WServer.class);
     private final int port;
 
+
+
+
     private boolean isInitialized = false;
     private TNonblockingServerTransport serverTransport;
     private WoodpeckerService.Processor processor;
